@@ -552,6 +552,7 @@ service qseecomd /system/bin/qseecomd
    class core
    user root
    group root
+   disabled
 
 service thermal-engine /system/vendor/bin/thermal-engine
    class main
@@ -597,7 +598,7 @@ on property:init.svc.surfaceflinger=running
 service per_mgr /system/bin/pm-service
     class core
     user system
-    group system
+    group system net_raw
 
 service power_engine /system/bin/power_engine
     class late_start
