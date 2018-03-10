@@ -263,14 +263,14 @@ service perfd /system/vendor/bin/perfd
     socket perfd seqpacket 0666 root system
     writepid /dev/cpuset/system-background/tasks
 
-    mkdir /data/tombstones 0771 system system
-    mkdir /tombstones/modem 0771 system system
-    mkdir /tombstones/lpass 0771 system system
-    mkdir /tombstones/wcnss 0771 system system
-    mkdir /tombstones/dsps 0771 system system
+    #mkdir /data/tombstones 0771 system system
+    #mkdir /tombstones/modem 0771 system system
+    #mkdir /tombstones/lpass 0771 system system
+    #mkdir /tombstones/wcnss 0771 system system
+    #mkdir /tombstones/dsps 0771 system system
 
-    mkdir /persist/data/sfs 0700 system system
-    mkdir /persist/data/tz 0700 system system
+    #mkdir /persist/data/sfs 0700 system system
+    #mkdir /persist/data/tz 0700 system system
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
