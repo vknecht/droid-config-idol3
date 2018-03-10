@@ -79,5 +79,8 @@ Requires:
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
 
+# Enable flashlight shortcut in events view
+- jolla-settings-system-flashlight
+
 Summary: Jolla HW Adaptation idol3
 
