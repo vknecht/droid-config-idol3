@@ -82,5 +82,8 @@ Requires:
 # Enable flashlight shortcut in events view
 - jolla-settings-system-flashlight
 
+# For SDcard automounting
+- sd-utils
+
 Summary: Jolla HW Adaptation idol3
 
