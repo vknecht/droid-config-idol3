@@ -11,6 +11,8 @@
 %define community_adaptation 1
 
 Provides: ofono-configs
+%define ofono_enable_plugins bluez5,hfp_ag_bluez5
+%define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
 
 # Sailfish OS is considered to-scale, if in app grid you get 4-in-a-row icons
 # and 2x2 or 3x3 covers when up-to-4 or 5-or-more apps are open respectively.
