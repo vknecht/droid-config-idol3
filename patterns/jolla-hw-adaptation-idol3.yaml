@@ -6,6 +6,7 @@ Name: jolla-hw-adaptation-idol3
 Requires:
 - droid-hal-idol3
 - droid-hal-idol3-img-boot
+- droid-hal-idol3-kernel
 - droid-hal-idol3-kernel-modules
 - droid-config-idol3-sailfish
 - droid-config-idol3-pulseaudio-settings
