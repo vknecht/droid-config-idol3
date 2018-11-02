@@ -1,0 +1,15 @@
+[
+    {
+        "favicon": "image://theme/icon-s-sailfish.png",
+        "hasTouchIcon": true,
+        "title": "SFOS Idol3",
+        "url": "https://wiki.merproject.org/wiki/index.php?title=Adaptations/libhybris/Install_SailfishOS_for_idol3"
+    },
+    {
+        "favicon": "image://theme/icon-launcher-jollacommunity",
+        "hasTouchIcon": true,
+        "title": "SFOS Community",
+        "url": "https://together.jolla.com/questions/"
+    }
+]
+
