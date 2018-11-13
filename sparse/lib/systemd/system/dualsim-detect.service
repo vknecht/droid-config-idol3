@@ -1,6 +1,7 @@
 [Unit]
 Description=Setup CSD and Ofono for dualsim variant
 After=local-fs.target
+Before=mce.service
 Conflicts=rescue.target actdead.target factory-test.target
 
 [Service]
