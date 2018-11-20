@@ -27,3 +27,7 @@ Provides: ofono-configs
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"
 
+%post
+if [ $1 -gt 1 ]; then
+  rm -f /.dualsim-detect-done || :
+fi
