@@ -1,0 +1,9 @@
+[Unit]
+Description=FocalTech FT5X36 touchpanel doubletap
+After=local-fs.target
+Conflicts=rescue.target actdead.target factory-test.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash -c 'echo 2 > /sys/devices/virtual/tp_gesture/tp_device/tp_gesture_id'
