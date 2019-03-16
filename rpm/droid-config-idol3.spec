@@ -10,6 +10,10 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
+#provide closed sources packages - needed for correct nemomobile build
+Provides: obexd-calldata-provider
+Provides: obexd-contentfilter-helper
+
 %define ofono_enable_plugins bluez5,hfp_ag_bluez5
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
 
