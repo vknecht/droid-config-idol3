@@ -12,6 +12,7 @@
 
 # Prevent libdiag.so in sparse to require 64bits libc*
 %define __requires_exclude_from ^%{_libexecdir}/droid-hybris/system/lib64/.*$
+%define __provides_exclude_from ^%{_libexecdir}/droid-hybris/system/lib64/.*$
 
 %define ofono_enable_plugins bluez5,hfp_ag_bluez5
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
